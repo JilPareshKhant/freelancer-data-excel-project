@@ -56,7 +56,7 @@ With the cleaned dataset, I built a set of Excel visuals and pivot tables to unc
 ---
 
 ---
-German
+
 
 # Globale Freelancer-Analyse (Excel-Projekt)
 
