@@ -55,7 +55,61 @@ With the cleaned dataset, I built a set of Excel visuals and pivot tables to unc
 
 ---
 
-## Why This Project Matters
-This project shows my ability to work with **imperfect, real-world data** — to clean it, respect its limitations, and still extract meaningful insights.  
-It highlights the importance of **data integrity, thoughtful handling of missing values, and creative feature engineering** in delivering dashboards that support business understanding.  
+---
+German Version
+
+# Globale Freelancer-Analyse (Excel-Projekt)
+
+## Projektübersicht
+Freelancing wächst weltweit rasant, doch Rohdaten sind oft unvollständig und unübersichtlich.  
+In diesem Projekt habe ich mit einem **Global Freelancers Datensatz** gearbeitet, um die Daten in Microsoft Excel zu bereinigen, zu strukturieren und zu analysieren.  
+Das Ziel war klar: **ungeordnete Rohdaten in aussagekräftige Geschäftseinblicke zu verwandeln**.  
+
+Ausgehend von einer Roh-CSV-Datei habe ich eine bereinigte Excel-Version erstellt, neue berechnete Spalten hinzugefügt und Diagramme erstellt, um Trends in den Bereichen Demografie, Einkommen und Kundenzufriedenheit von Freelancern sichtbar zu machen.  
+
+---
+
+## Projektdateien
+- `global_freelancers_raw.csv` → Ursprünglicher Datensatz (unbearbeitet, direkter Export).  
+- `global_freelancers_CLEAN.xlsx` → Bereinigter und strukturierter Datensatz mit Diagrammen und Analysen.  
+
+---
+
+## Datenbereinigung & Aufbereitung
+Die Umwandlung von Rohdaten in nutzbare Informationen erforderte einige sorgfältige Entscheidungen:
+
+- **Entfernung unnötiger leerer Spalten**, die keinen analytischen Mehrwert hatten.  
+- **Sorgfältiger Umgang mit fehlenden Werten**:  
+  - In Feldern wie *Alter*, *Stundenlohn* und *Kundenzufriedenheit* habe ich leere Zellen unverändert gelassen.  
+  - Künstliche Werte wie „0“ oder „NA“ hätten die Aussagekraft verändert und potenziell irreführende Ergebnisse erzeugt.  
+  - Durch das Belassen der Leerstellen bleibt der Datensatz **authentisch und vertrauenswürdig**.  
+- **Neue Spalte – Kundenzufriedenheit**: erstellt, um Bewertungen der Kunden abzubilden und eine geschäftsrelevante Dimension über die reinen Demografiedaten hinaus hinzuzufügen.  
+- Standardisierung der Spaltenformate, Prüfung auf Duplikate und Sicherstellung einer **analysierbaren Struktur**.  
+
+---
+
+## Diagramme & Analysen
+Mit dem bereinigten Datensatz habe ich verschiedene Excel-Diagramme und Pivot-Tabellen erstellt, um Erkenntnisse zu gewinnen:
+
+- **Freelancer nach Ländern/Regionen** – zeigt, wo die meisten Freelancer aktiv sind.  
+- **Verteilung nach Fähigkeiten/Kategorien** – hebt die gefragtesten Bereiche hervor.  
+- **Vergleich der Stundenlöhne** – zeigt Einkommenspotenziale nach Kategorien (unter transparenter Berücksichtigung leerer Felder ohne Daten).  
+- **Altersverteilung** – Darstellung verfügbarer demografischer Daten bei gleichzeitiger Wahrung von Datenlücken.  
+- **Analyse der Kundenzufriedenheit** – Nutzung der neuen Spalte, um leistungsstarke Freelancer und die allgemeine Servicequalität sichtbar zu machen.  
+
+---
+
+## Zentrale Erkenntnisse
+- Die Datenbereinigung verwandelte einen unübersichtlichen Export in einen **klaren, analysierbaren Datensatz**.  
+- Durch das Belassen leerer Felder in *Alter*, *Stundenlohn* und *Kundenzufriedenheit* konnten Verzerrungen vermieden und die **Datenintegrität** gewahrt werden.  
+- Die Einführung der **Kundenzufriedenheit** als Kennzahl ermöglicht nicht nur die Bewertung des Einkommens von Freelancern, sondern auch der **Qualität ihrer Arbeit aus Sicht der Kunden**.  
+- Die Diagramme und Dashboards geben wertvolle Geschäftseinblicke: **Welche Regionen wachsen, welche Fähigkeiten gefragt sind und wie die Servicequalität weltweit wahrgenommen wird**.  
+
+---
+
+## Nachgewiesene Fähigkeiten
+- **Excel (Fortgeschritten):** Datenbereinigung, Formeln, Pivot-Tabellen, Diagrammerstellung.  
+- **Datenqualität:** Transparenter Umgang mit fehlenden Informationen.  
+- **Feature Engineering:** Entwicklung neuer geschäftsrelevanter Spalten (Kundenzufriedenheit).  
+- **Business Analytics:** Transformation von Rohdaten in aussagekräftige Geschäftseinblicke.  
 
